@@ -1,12 +1,16 @@
 {
-  "name": "JavaScript-Profesional",
+  "name": "platzi-media-player",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Proyecto del Curso Profesional de JavaScript de la Escuela de JavaScript de Platzi.",
+  "license": "MIT",
+  "author": "Richard B. Kaufman López <richardbkaufman@gmail.com>",
+  "keywords": [
+    "platzi"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "live-server"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
 }
